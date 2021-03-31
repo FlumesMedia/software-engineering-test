@@ -43,3 +43,19 @@ Our test script expects a stdout of the following format
 | 2021-02-15 | 2021-03-18 |      4 |
 | 2021-02-10 | 2021-03-12 |      3 |
 | 2021-01-03 | 2021-01-03 |      1 |
+
+## Install Ruby
+* ruby > 2.2
+
+## Runtime Dependencies
+* gem install 'activesupport'
+_Rich support for multibyte strings, internationalization, time zones, and testing_
+
+* gem install pp
+ _Provides a PrettyPrinter for Ruby objects_
+
+* For Running 
+$ ruby runner.rb
+
+* For Running Testcases
+$ ruby consecutive_logins_test.rb
